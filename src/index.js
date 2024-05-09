@@ -8,7 +8,7 @@ const port = 3000;
 app.use(express.json());
 
 const Movie = mongoose.model("Movie", {
-  name: String,
+  title: String,
   description: String,
   image_url: String,
   trailer_url: String,
